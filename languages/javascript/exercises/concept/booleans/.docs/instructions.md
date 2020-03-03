@@ -4,7 +4,7 @@ The main character is a young man trying to find his way into this world. His be
 Your friend asks you to implement the logic for obtaining the available actions of the main character based on the state of all the characters. The possible actions are:
 - Fast attack: you can try a fast attack on the group if the knight is sleeping because it takes time for him to get his armor on, so he will be vulnerable.
 - Approach and Spy: you can approach and spy the group if at least one of them is awake. Otherwise, spying is useless... just wasted time, you can instead go and search for wild berries and come back later.
-- Signal Prisoner: you can try and communicate with the prisoner by making bird sounds only if the archer is sleeping and the prisoner is awake. The reason is that a lot of archers are trained in bird signling so he could intercept your message.
+- Signal Prisoner: you can try to communicate with the prisoner by making bird sounds only if the archer is sleeping and the prisoner is awake. The reason is that a lot of archers are trained in bird signling, so he could intercept your message.
 - Release Prisoner: You can sneak in and release the prisoner if he is awake and the other two characters are sleeping. Another way for achieving  this would be if the archer is sleeping and the main character has his pet dog with him. In this case the release of the prisoner would look like this: The knight will be scared by the dog, so he will withdraw, the archer would not equip himself fast enough in order to attempt a ranged attack, so he will also have to withdraw and then the main character would be able to release the prisoner.
 
 ## Tasks
