@@ -86,16 +86,16 @@ describe("booleans", () => {
         knightIsAwake,
         archerIsAwake,
         prisonerIsAwake,
-        mainCharacterHasPetDog,
+        petDogIsPresent,
         expected
       ]) => {
-        test(`canReleasePrisoner(${knightIsAwake}, ${archerIsAwake}, ${prisonerIsAwake}, ${mainCharacterHasPetDog})`, () => {
+        test(`canReleasePrisoner(${knightIsAwake}, ${archerIsAwake}, ${prisonerIsAwake}, ${petDogIsPresent})`, () => {
           expect(
             canReleasePrisoner(
               knightIsAwake,
               archerIsAwake,
               prisonerIsAwake,
-              mainCharacterHasPetDog
+              petDogIsPresent
             )
           ).toBe(expected);
         });

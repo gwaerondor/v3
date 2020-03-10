@@ -10,7 +10,7 @@ export function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
   throw new Error('Implement the canSignalPrisoner function')
 }
 
-export function canReleasePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, mainCharacterHasPetDog) {
+export function canReleasePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent) {
   throw new Error('Implement the canReleasePrisoner function')
 }
 
